@@ -407,6 +407,9 @@ class DatePicker extends Component {
                         {cancelBtnText}
                       </Text>
                     </TouchableComponent>
+                    <View style={[Style.btnText, Style.btnCancel, customStyles.btnCancel, customStyles.titleWrapper]}>
+                      <Text style={[Style.btnTextText, customStyles.titleText]}>Pick a Date and Time</Text>
+                    </View>
                     <TouchableComponent
                       underlayColor={'transparent'}
                       onPress={this.onPressConfirm}
